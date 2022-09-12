@@ -64,9 +64,9 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x===y){
-    return "true";
+    return true;
  } else {
-    return "false";
+    return false;
   }
 }
 
@@ -75,9 +75,9 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (str1.length === str2.length){
-    return "true";
+    return true;
   }else{
-      return "false";
+      return false;
     }
   }
   
@@ -87,9 +87,9 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num < 90){
-     return "true";
+     return true;
 } else { 
-  "false";
+  false;
 }
 }
 
@@ -98,9 +98,9 @@ function mayorQueCincuenta(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num > 50){
-    return "true";
+    return true;
   } else{
-    return "false";
+    return false;
   }
   
 }
@@ -116,9 +116,9 @@ function esPar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 0){
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
 }
 
@@ -127,9 +127,9 @@ function esImpar(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (num % 2 === 1){
-    return "true";
+    return true;
   } else {
-    return "false";
+    return false;
   }
   
 }
@@ -151,21 +151,21 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return ath.pow(num,exponent);
+  return math.pow(num,exponent);
   
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-  math.round(num);
+ return math.round(num);
   
 }
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
   // Tu código:
-  math.ceil(num);
+  return math.ceil(num);
   
 }
 
@@ -182,11 +182,11 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (numero > 0){
-    return "es positivo";
+    return "Es positivo";
   } if (numero < 0){
-    return " es negativo";
+    return " Es negativo";
   } if (num === 0){
-    return "false"; 
+    return false; 
   }
   }
   
@@ -210,7 +210,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return "hola " + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -252,13 +252,13 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if (letra.length > 1){
-    return "dato incorrecto";
+    return "Dato incorrecto";
   } 
    if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
-    return "es vocal";
+    return "Es vocal";
 
   } else {
-    return "dato incorrecto";
+    return "Dato incorrecto";
   }
     
   }
